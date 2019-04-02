@@ -1,0 +1,81 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #23b5fc;
+}
+
+#hellopreloader_preload {
+  display: block;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  background: #23b5fc url('http://hello-site.ru//main/images/preloads/puff.svg') center center no-repeat;
+  background-size:163px;
+}
+
+#callBack{
+	margin: 5px;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align:center;
+}
+
+.current {
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+}
+
+.container {
+	padding: 0;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: repeat(2, auto);
+}
+
+
+.block{
+	padding: 10px;
+	min-width: 280px;
+}
+ .block img {
+ 	background-color: white;
+  width:100%;
+  height: auto;
+  border-radius: 10px;
+}
+.product-img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.discription{
+	text-align: left;
+	padding: 10px;
+	background-color: white;
+}
+
+h3{
+	border-radius: 10px 10px 0 0;
+	background-color: white;
+}
+h4{
+	border-bottom: 3px dashed #23b5fc;
+	padding: 5px;
+	width: 100%;
+}
+.price{
+	padding: 5px;
+	height: 50px;
+	margin-top:20px; 
+	border-radius:0 0 10px 10px ;
+	background-color: white;
+}
